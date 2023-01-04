@@ -443,3 +443,98 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2023-01-04 11:44:10,658:INFO:Copying training dataset
 2023-01-04 11:44:10,658:INFO:Plot type: elbow
 2023-01-04 11:44:10,670:INFO:Fitting Model
+2023-01-04 11:44:12,062:INFO:Visual Rendered Successfully
+2023-01-04 11:44:12,177:INFO:plot_model() successfully completed......................................
+2023-01-04 11:44:12,231:INFO:Initializing plot_model()
+2023-01-04 11:44:12,232:INFO:plot_model(plot=silhouette, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=KMeans(n_clusters=4, random_state=123), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001EEF6EF0BB0>, system=True)
+2023-01-04 11:44:12,232:INFO:Checking exceptions
+2023-01-04 11:44:12,238:INFO:Preloading libraries
+2023-01-04 11:44:12,239:INFO:Copying training dataset
+2023-01-04 11:44:12,239:INFO:Plot type: silhouette
+2023-01-04 11:44:12,253:INFO:Fitting Model
+2023-01-04 11:44:12,926:INFO:Visual Rendered Successfully
+2023-01-04 11:44:13,103:INFO:plot_model() successfully completed......................................
+2023-01-04 11:44:13,157:INFO:Initializing plot_model()
+2023-01-04 11:44:13,158:INFO:plot_model(plot=cluster, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=KMeans(n_clusters=4, random_state=123), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001EEF6EF0BB0>, system=True)
+2023-01-04 11:44:13,158:INFO:Checking exceptions
+2023-01-04 11:44:13,164:INFO:Preloading libraries
+2023-01-04 11:44:13,164:INFO:Copying training dataset
+2023-01-04 11:44:13,165:INFO:Plot type: cluster
+2023-01-04 11:44:13,165:INFO:SubProcess assign_model() called ==================================
+2023-01-04 11:44:13,166:INFO:Initializing assign_model()
+2023-01-04 11:44:13,166:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001EEF6EF0BB0>, model=KMeans(n_clusters=4, random_state=123), transformation=True, score=True, verbose=False)
+2023-01-04 11:44:13,167:INFO:Checking exceptions
+2023-01-04 11:44:13,167:INFO:Determining Trained Model
+2023-01-04 11:44:13,167:INFO:Trained Model : K-Means Clustering
+2023-01-04 11:44:13,167:INFO:Copying data
+2023-01-04 11:44:13,181:INFO:Transformation parameter set to True. Assigned clusters are attached on transformed dataset.
+2023-01-04 11:44:13,183:INFO:(1500, 8)
+2023-01-04 11:44:13,183:INFO:assign_model() successfully completed......................................
+2023-01-04 11:44:13,183:INFO:SubProcess assign_model() end ==================================
+2023-01-04 11:44:13,186:INFO:Fitting PCA()
+2023-01-04 11:44:13,196:INFO:Sorting dataframe
+2023-01-04 11:44:13,200:INFO:Rendering Visual
+2023-01-04 11:44:13,340:INFO:Visual Rendered Successfully
+2023-01-04 11:44:13,443:INFO:plot_model() successfully completed......................................
+2023-01-04 11:44:13,501:INFO:Initializing plot_model()
+2023-01-04 11:44:13,502:INFO:plot_model(plot=distribution, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=KMeans(n_clusters=4, random_state=123), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001EEF6EF0BB0>, system=True)
+2023-01-04 11:44:13,502:INFO:Checking exceptions
+2023-01-04 11:44:13,507:INFO:Preloading libraries
+2023-01-04 11:44:13,507:INFO:Copying training dataset
+2023-01-04 11:44:13,508:INFO:Plot type: distribution
+2023-01-04 11:44:13,508:INFO:SubProcess assign_model() called ==================================
+2023-01-04 11:44:13,509:INFO:Initializing assign_model()
+2023-01-04 11:44:13,510:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001EEF6EF0BB0>, model=KMeans(n_clusters=4, random_state=123), transformation=False, score=True, verbose=False)
+2023-01-04 11:44:13,510:INFO:Checking exceptions
+2023-01-04 11:44:13,511:INFO:Determining Trained Model
+2023-01-04 11:44:13,511:INFO:Trained Model : K-Means Clustering
+2023-01-04 11:44:13,511:INFO:Copying data
+2023-01-04 11:44:13,515:INFO:(1500, 8)
+2023-01-04 11:44:13,515:INFO:assign_model() successfully completed......................................
+2023-01-04 11:44:13,515:INFO:SubProcess assign_model() end ==================================
+2023-01-04 11:44:13,515:INFO:Sorting dataframe
+2023-01-04 11:44:13,522:INFO:Rendering Visual
+2023-01-04 11:44:13,670:INFO:Visual Rendered Successfully
+2023-01-04 11:44:13,772:INFO:plot_model() successfully completed......................................
+2023-01-04 11:44:13,828:INFO:Initializing assign_model()
+2023-01-04 11:44:13,829:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001EEF6EF0BB0>, model=KMeans(n_clusters=4, random_state=123), transformation=False, score=True, verbose=True)
+2023-01-04 11:44:13,829:INFO:Checking exceptions
+2023-01-04 11:44:13,830:INFO:Determining Trained Model
+2023-01-04 11:44:13,830:INFO:Trained Model : K-Means Clustering
+2023-01-04 11:44:13,830:INFO:Copying data
+2023-01-04 11:44:13,835:INFO:(1500, 8)
+2023-01-04 11:44:13,835:INFO:assign_model() successfully completed......................................
+2023-01-04 11:44:15,080:INFO:Initializing save_model()
+2023-01-04 11:44:15,080:INFO:save_model(model=KMeans(n_clusters=4, random_state=123), model_name=../model/crop-model, prep_pipe_=Pipeline(memory=Memory(location=C:\Users\Raphael\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['N', 'P', 'K', 'temperature',
+                                             'humidity', 'ph', 'rainfall'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent')))]), verbose=True, use_case=MLUsecase.CLUSTERING, kwargs={})
+2023-01-04 11:44:15,080:INFO:Adding model into prep_pipe
+2023-01-04 11:44:15,090:INFO:../model/crop-model.pkl saved in current working directory
+2023-01-04 11:44:15,098:INFO:Pipeline(memory=Memory(location=C:\Users\Raphael\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['N', 'P', 'K', 'temperature',
+                                             'humidity', 'ph', 'rainfall'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', KMeans(n_clusters=4, random_state=123))])
+2023-01-04 11:44:15,098:INFO:save_model() successfully completed......................................
+2023-01-04 11:44:15,282:INFO:Initializing load_model()
+2023-01-04 11:44:15,283:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-04 11:44:15,420:INFO:Initializing predict_model()
+2023-01-04 11:44:15,421:INFO:predict_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000001EEF6EF0BB0>, estimator=Pipeline(memory=Memory(location=C:\Users\Raphael\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['N', 'P', 'K', 'temperature',
+                                             'humidity', 'ph', 'rainfall'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', KMeans(n_clusters=4, random_state=123))]), ml_usecase=None)
+2023-01-04 11:44:15,421:INFO:Set up data.
