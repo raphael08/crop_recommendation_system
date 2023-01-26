@@ -1,0 +1,1888 @@
+2023-01-16 15:02:51,904:INFO:Initializing load_model()
+2023-01-16 15:02:51,904:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:02:52,007:INFO:Initializing predict_model()
+2023-01-16 15:02:52,008:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:03:21,152:INFO:Initializing load_model()
+2023-01-16 15:03:21,154:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:03:21,211:INFO:Initializing predict_model()
+2023-01-16 15:03:21,212:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:07:21,185:INFO:Initializing load_model()
+2023-01-16 15:07:21,187:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:07:21,249:INFO:Initializing predict_model()
+2023-01-16 15:07:21,252:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:08:11,496:INFO:Initializing load_model()
+2023-01-16 15:08:11,497:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:08:11,561:INFO:Initializing predict_model()
+2023-01-16 15:08:11,563:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:09:13,423:INFO:Initializing load_model()
+2023-01-16 15:09:13,424:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:09:13,475:INFO:Initializing predict_model()
+2023-01-16 15:09:13,475:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:11:11,054:INFO:Initializing load_model()
+2023-01-16 15:11:11,055:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:11:11,103:INFO:Initializing predict_model()
+2023-01-16 15:11:11,103:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:12:19,594:INFO:Initializing load_model()
+2023-01-16 15:12:19,598:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:12:19,692:INFO:Initializing predict_model()
+2023-01-16 15:12:19,698:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:14:07,822:INFO:Initializing load_model()
+2023-01-16 15:14:07,822:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:14:07,896:INFO:Initializing predict_model()
+2023-01-16 15:14:07,897:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:17:01,252:INFO:Initializing load_model()
+2023-01-16 15:17:01,252:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:17:01,315:INFO:Initializing predict_model()
+2023-01-16 15:17:01,315:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:17:48,596:INFO:Initializing load_model()
+2023-01-16 15:17:48,596:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:17:48,672:INFO:Initializing predict_model()
+2023-01-16 15:17:48,673:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:19:04,887:INFO:Initializing load_model()
+2023-01-16 15:19:04,888:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:19:04,962:INFO:Initializing predict_model()
+2023-01-16 15:19:04,964:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:20:31,271:INFO:Initializing load_model()
+2023-01-16 15:20:31,272:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:20:31,349:INFO:Initializing predict_model()
+2023-01-16 15:20:31,351:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:24:09,364:INFO:Initializing load_model()
+2023-01-16 15:24:09,364:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:24:09,446:INFO:Initializing predict_model()
+2023-01-16 15:24:09,447:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:25:12,088:INFO:Initializing load_model()
+2023-01-16 15:25:12,088:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:25:12,166:INFO:Initializing predict_model()
+2023-01-16 15:25:12,174:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:26:59,618:INFO:Initializing load_model()
+2023-01-16 15:26:59,618:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:26:59,684:INFO:Initializing predict_model()
+2023-01-16 15:26:59,685:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:28:11,312:INFO:Initializing load_model()
+2023-01-16 15:28:11,313:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:28:11,375:INFO:Initializing predict_model()
+2023-01-16 15:28:11,376:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:29:14,445:INFO:Initializing load_model()
+2023-01-16 15:29:14,445:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:29:14,507:INFO:Initializing predict_model()
+2023-01-16 15:29:14,507:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:33:22,232:INFO:Initializing load_model()
+2023-01-16 15:33:22,233:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:33:22,309:INFO:Initializing predict_model()
+2023-01-16 15:33:22,309:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:34:19,659:INFO:Initializing load_model()
+2023-01-16 15:34:19,660:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:34:19,698:INFO:Initializing predict_model()
+2023-01-16 15:34:19,701:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:35:14,358:INFO:Initializing load_model()
+2023-01-16 15:35:14,367:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:35:14,425:INFO:Initializing predict_model()
+2023-01-16 15:35:14,429:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:35:21,447:INFO:Initializing load_model()
+2023-01-16 15:35:21,448:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:35:21,487:INFO:Initializing predict_model()
+2023-01-16 15:35:21,487:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:35:44,648:INFO:Initializing load_model()
+2023-01-16 15:35:44,648:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:35:44,696:INFO:Initializing predict_model()
+2023-01-16 15:35:44,699:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:35:44,893:INFO:Initializing load_model()
+2023-01-16 15:35:44,893:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:35:44,962:INFO:Initializing predict_model()
+2023-01-16 15:35:44,963:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:36:19,799:INFO:Initializing load_model()
+2023-01-16 15:36:19,799:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:36:19,882:INFO:Initializing predict_model()
+2023-01-16 15:36:19,889:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:36:36,833:INFO:Initializing load_model()
+2023-01-16 15:36:36,833:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:36:36,910:INFO:Initializing predict_model()
+2023-01-16 15:36:36,911:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:36:44,187:INFO:Initializing load_model()
+2023-01-16 15:36:44,188:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:36:44,247:INFO:Initializing predict_model()
+2023-01-16 15:36:44,248:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:37:31,394:INFO:Initializing load_model()
+2023-01-16 15:37:31,395:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:37:31,441:INFO:Initializing predict_model()
+2023-01-16 15:37:31,443:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:37:38,306:INFO:Initializing load_model()
+2023-01-16 15:37:38,307:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:37:38,353:INFO:Initializing predict_model()
+2023-01-16 15:37:38,354:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:38:27,070:INFO:Initializing load_model()
+2023-01-16 15:38:27,070:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:38:27,146:INFO:Initializing predict_model()
+2023-01-16 15:38:27,148:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:39:03,708:INFO:Initializing load_model()
+2023-01-16 15:39:03,708:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:39:03,755:INFO:Initializing predict_model()
+2023-01-16 15:39:03,755:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:40:03,245:INFO:Initializing load_model()
+2023-01-16 15:40:03,245:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:40:03,310:INFO:Initializing predict_model()
+2023-01-16 15:40:03,312:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:41:43,815:INFO:Initializing load_model()
+2023-01-16 15:41:43,816:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:41:43,853:INFO:Initializing predict_model()
+2023-01-16 15:41:43,855:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 15:44:13,948:INFO:Initializing load_model()
+2023-01-16 15:44:13,949:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 15:44:14,010:INFO:Initializing predict_model()
+2023-01-16 15:44:14,011:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-16 16:08:22,239:INFO:Initializing load_model()
+2023-01-16 16:08:22,240:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-16 16:08:22,305:INFO:Initializing predict_model()
+2023-01-16 16:08:22,306:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-17 18:58:43,865:INFO:Initializing load_model()
+2023-01-17 18:58:43,865:INFO:load_model(model_name=../model/crop-model, platform=None, authentication=None, verbose=True)
+2023-01-17 18:58:43,926:INFO:Initializing predict_model()
+2023-01-17 18:58:43,928:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(features_todrop=['label'],
+                                      ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(rep...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='UNSUPERVISED_DUMMY_TARGET')),
+                ('fix_perfect', 'passthrough'),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 KMeans(n_clusters=4, n_jobs=-1, random_state=123)]]), ml_usecase=MLUsecase.CLUSTERING)
+2023-01-17 19:05:15,367:INFO:Initializing load_model()
+2023-01-17 19:05:15,376:INFO:load_model(model_name=../model\crop-model-classification.pkl, platform=None, authentication=None, verbose=True)
+2023-01-17 19:05:42,939:INFO:Initializing load_model()
+2023-01-17 19:05:42,941:INFO:load_model(model_name=../model/crop-model-classification.pkl, platform=None, authentication=None, verbose=True)
+2023-01-17 19:05:54,293:INFO:Initializing load_model()
+2023-01-17 19:05:54,295:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 19:05:54,465:INFO:Initializing predict_model()
+2023-01-17 19:05:54,473:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 19:05:54,479:INFO:Checking exceptions
+2023-01-17 19:05:54,479:INFO:Preloading libraries
+2023-01-17 19:06:10,436:INFO:Initializing load_model()
+2023-01-17 19:06:10,437:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 19:06:10,636:INFO:Initializing predict_model()
+2023-01-17 19:06:10,643:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 19:06:10,646:INFO:Checking exceptions
+2023-01-17 19:06:10,646:INFO:Preloading libraries
+2023-01-17 19:06:58,422:INFO:Initializing load_model()
+2023-01-17 19:06:58,425:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 19:06:58,582:INFO:Initializing predict_model()
+2023-01-17 19:06:58,591:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 19:06:58,597:INFO:Checking exceptions
+2023-01-17 19:06:58,599:INFO:Preloading libraries
+2023-01-17 22:19:56,099:INFO:Initializing load_model()
+2023-01-17 22:19:56,101:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 22:19:56,330:INFO:Initializing predict_model()
+2023-01-17 22:19:56,330:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 22:19:56,330:INFO:Checking exceptions
+2023-01-17 22:19:56,330:INFO:Preloading libraries
+2023-01-17 23:12:41,508:INFO:Initializing load_model()
+2023-01-17 23:12:41,509:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:12:41,772:INFO:Initializing predict_model()
+2023-01-17 23:12:41,772:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:12:41,784:INFO:Checking exceptions
+2023-01-17 23:12:41,784:INFO:Preloading libraries
+2023-01-17 23:13:17,276:INFO:Initializing load_model()
+2023-01-17 23:13:17,278:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:13:17,539:INFO:Initializing predict_model()
+2023-01-17 23:13:17,541:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:13:17,550:INFO:Checking exceptions
+2023-01-17 23:13:17,551:INFO:Preloading libraries
+2023-01-17 23:14:29,480:INFO:Initializing load_model()
+2023-01-17 23:14:29,488:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:14:29,705:INFO:Initializing predict_model()
+2023-01-17 23:14:29,710:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:14:29,722:INFO:Checking exceptions
+2023-01-17 23:14:29,723:INFO:Preloading libraries
+2023-01-17 23:15:16,793:INFO:Initializing load_model()
+2023-01-17 23:15:16,795:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:15:17,068:INFO:Initializing predict_model()
+2023-01-17 23:15:17,070:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:15:17,071:INFO:Checking exceptions
+2023-01-17 23:15:17,071:INFO:Preloading libraries
+2023-01-17 23:16:16,146:INFO:Initializing load_model()
+2023-01-17 23:16:16,147:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:16:16,346:INFO:Initializing predict_model()
+2023-01-17 23:16:16,346:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:16:16,360:INFO:Checking exceptions
+2023-01-17 23:16:16,362:INFO:Preloading libraries
+2023-01-17 23:17:11,323:INFO:Initializing load_model()
+2023-01-17 23:17:11,330:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:17:11,530:INFO:Initializing predict_model()
+2023-01-17 23:17:11,530:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:17:11,545:INFO:Checking exceptions
+2023-01-17 23:17:11,546:INFO:Preloading libraries
+2023-01-17 23:17:41,780:INFO:Initializing load_model()
+2023-01-17 23:17:41,783:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:17:41,987:INFO:Initializing predict_model()
+2023-01-17 23:17:41,988:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:17:41,993:INFO:Checking exceptions
+2023-01-17 23:17:41,993:INFO:Preloading libraries
+2023-01-17 23:19:02,742:INFO:Initializing load_model()
+2023-01-17 23:19:02,743:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:19:02,945:INFO:Initializing predict_model()
+2023-01-17 23:19:02,945:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:19:02,952:INFO:Checking exceptions
+2023-01-17 23:19:02,953:INFO:Preloading libraries
+2023-01-17 23:19:06,318:INFO:Initializing load_model()
+2023-01-17 23:19:06,324:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:19:06,492:INFO:Initializing predict_model()
+2023-01-17 23:19:06,502:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:19:06,507:INFO:Checking exceptions
+2023-01-17 23:19:06,508:INFO:Preloading libraries
+2023-01-17 23:19:21,356:INFO:Initializing load_model()
+2023-01-17 23:19:21,358:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:19:21,582:INFO:Initializing predict_model()
+2023-01-17 23:19:21,582:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:19:21,588:INFO:Checking exceptions
+2023-01-17 23:19:21,592:INFO:Preloading libraries
+2023-01-17 23:20:24,360:INFO:Initializing load_model()
+2023-01-17 23:20:24,366:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:20:24,533:INFO:Initializing predict_model()
+2023-01-17 23:20:24,545:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:20:24,571:INFO:Checking exceptions
+2023-01-17 23:20:24,573:INFO:Preloading libraries
+2023-01-17 23:20:56,065:INFO:Initializing load_model()
+2023-01-17 23:20:56,068:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:20:56,235:INFO:Initializing predict_model()
+2023-01-17 23:20:56,246:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:20:56,251:INFO:Checking exceptions
+2023-01-17 23:20:56,256:INFO:Preloading libraries
+2023-01-17 23:21:33,372:INFO:Initializing load_model()
+2023-01-17 23:21:33,376:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:21:33,587:INFO:Initializing predict_model()
+2023-01-17 23:21:33,588:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:21:33,591:INFO:Checking exceptions
+2023-01-17 23:21:33,593:INFO:Preloading libraries
+2023-01-17 23:21:48,750:INFO:Initializing load_model()
+2023-01-17 23:21:48,754:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:21:48,978:INFO:Initializing predict_model()
+2023-01-17 23:21:48,986:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:21:48,990:INFO:Checking exceptions
+2023-01-17 23:21:48,991:INFO:Preloading libraries
+2023-01-17 23:22:35,409:INFO:Initializing load_model()
+2023-01-17 23:22:35,410:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:22:35,571:INFO:Initializing predict_model()
+2023-01-17 23:22:35,573:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:22:35,577:INFO:Checking exceptions
+2023-01-17 23:22:35,578:INFO:Preloading libraries
+2023-01-17 23:25:33,153:INFO:Initializing load_model()
+2023-01-17 23:25:33,158:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:25:33,368:INFO:Initializing predict_model()
+2023-01-17 23:25:33,368:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:25:33,374:INFO:Checking exceptions
+2023-01-17 23:25:33,374:INFO:Preloading libraries
+2023-01-17 23:26:26,054:INFO:Initializing load_model()
+2023-01-17 23:26:26,056:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:26:26,263:INFO:Initializing predict_model()
+2023-01-17 23:26:26,265:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:26:26,270:INFO:Checking exceptions
+2023-01-17 23:26:26,271:INFO:Preloading libraries
+2023-01-17 23:26:51,091:INFO:Initializing load_model()
+2023-01-17 23:26:51,094:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:26:51,297:INFO:Initializing predict_model()
+2023-01-17 23:26:51,297:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:26:51,298:INFO:Checking exceptions
+2023-01-17 23:26:51,298:INFO:Preloading libraries
+2023-01-17 23:27:18,478:INFO:Initializing load_model()
+2023-01-17 23:27:18,481:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:27:18,628:INFO:Initializing predict_model()
+2023-01-17 23:27:18,628:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:27:18,643:INFO:Checking exceptions
+2023-01-17 23:27:18,644:INFO:Preloading libraries
+2023-01-17 23:27:21,629:INFO:Initializing load_model()
+2023-01-17 23:27:21,630:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:27:21,828:INFO:Initializing predict_model()
+2023-01-17 23:27:21,838:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:27:21,843:INFO:Checking exceptions
+2023-01-17 23:27:21,845:INFO:Preloading libraries
+2023-01-17 23:28:08,616:INFO:Initializing load_model()
+2023-01-17 23:28:08,620:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:28:08,805:INFO:Initializing predict_model()
+2023-01-17 23:28:08,806:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:28:08,811:INFO:Checking exceptions
+2023-01-17 23:28:08,812:INFO:Preloading libraries
+2023-01-17 23:28:22,481:INFO:Initializing load_model()
+2023-01-17 23:28:22,483:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:28:22,644:INFO:Initializing predict_model()
+2023-01-17 23:28:22,644:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:28:22,658:INFO:Checking exceptions
+2023-01-17 23:28:22,658:INFO:Preloading libraries
+2023-01-17 23:31:44,701:INFO:Initializing load_model()
+2023-01-17 23:31:44,710:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:31:44,917:INFO:Initializing predict_model()
+2023-01-17 23:31:44,918:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:31:44,923:INFO:Checking exceptions
+2023-01-17 23:31:44,923:INFO:Preloading libraries
+2023-01-17 23:34:50,280:INFO:Initializing load_model()
+2023-01-17 23:34:50,281:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:34:50,460:INFO:Initializing predict_model()
+2023-01-17 23:34:50,461:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:34:50,466:INFO:Checking exceptions
+2023-01-17 23:34:50,468:INFO:Preloading libraries
+2023-01-17 23:34:50,847:INFO:Initializing load_model()
+2023-01-17 23:34:50,857:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:34:51,032:INFO:Initializing predict_model()
+2023-01-17 23:34:51,035:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:34:51,038:INFO:Checking exceptions
+2023-01-17 23:34:51,039:INFO:Preloading libraries
+2023-01-17 23:38:49,469:INFO:Initializing load_model()
+2023-01-17 23:38:49,472:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:38:49,667:INFO:Initializing predict_model()
+2023-01-17 23:38:49,669:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:38:49,683:INFO:Checking exceptions
+2023-01-17 23:38:49,686:INFO:Preloading libraries
+2023-01-17 23:43:46,194:INFO:Initializing load_model()
+2023-01-17 23:43:46,202:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:43:46,547:INFO:Initializing predict_model()
+2023-01-17 23:43:46,547:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:43:46,564:INFO:Checking exceptions
+2023-01-17 23:43:46,571:INFO:Preloading libraries
+2023-01-17 23:46:33,314:INFO:Initializing load_model()
+2023-01-17 23:46:33,323:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:46:33,517:INFO:Initializing predict_model()
+2023-01-17 23:46:33,518:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:46:33,522:INFO:Checking exceptions
+2023-01-17 23:46:33,529:INFO:Preloading libraries
+2023-01-17 23:50:28,366:INFO:Initializing load_model()
+2023-01-17 23:50:28,369:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:50:28,629:INFO:Initializing predict_model()
+2023-01-17 23:50:28,630:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:50:28,643:INFO:Checking exceptions
+2023-01-17 23:50:28,644:INFO:Preloading libraries
+2023-01-17 23:50:29,165:INFO:Initializing load_model()
+2023-01-17 23:50:29,186:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-17 23:50:29,563:INFO:Initializing predict_model()
+2023-01-17 23:50:29,569:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-17 23:50:29,579:INFO:Checking exceptions
+2023-01-17 23:50:29,581:INFO:Preloading libraries
+2023-01-26 15:03:44,328:INFO:Initializing load_model()
+2023-01-26 15:03:44,329:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-26 15:03:44,598:INFO:Initializing predict_model()
+2023-01-26 15:03:44,598:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-26 15:03:44,598:INFO:Checking exceptions
+2023-01-26 15:03:44,600:INFO:Preloading libraries
+2023-01-26 15:04:49,612:INFO:Initializing load_model()
+2023-01-26 15:04:49,624:INFO:load_model(model_name=../model/crop-model-classification, platform=None, authentication=None, verbose=True)
+2023-01-26 15:04:49,794:INFO:Initializing predict_model()
+2023-01-26 15:04:49,794:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='label')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 RandomForestClassifier(bootstrap=False,
+                                        class_weight='balanced_subsample',
+                                        max_depth=6, max_features='log2',
+                                        min_impurity_decrease=0.001,
+                                        min_samples_leaf=6, min_samples_split=9,
+                                        n_estimators=190, n_jobs=-1,
+                                        random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-26 15:04:49,803:INFO:Checking exceptions
+2023-01-26 15:04:49,807:INFO:Preloading libraries

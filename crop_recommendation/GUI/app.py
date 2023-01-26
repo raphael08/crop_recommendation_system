@@ -1,34 +1,80 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import pycaret.clustering as pc
+import pycaret.classification as pc
 # Create a text input field
 # input_text = st.text_input('Enter your text:',type='default')
 
 # print(input_text)
-col1, col2, col3,col4 = st.columns(4)
-col5, col6, col7 = st.columns(3)
-data = pd.read_csv('../dataset/kmeans_result2.csv')
-n = float(col1.number_input('enter value of Nitrogen:',key='n', min_value=round(data['N'].min()), max_value=round(data['N'].max())))
-p = float(col2.number_input('enter value of Phorphorus:', key='p', min_value=round(data['P'].min()), max_value=round(data['P'].max())))
-k = float(col3.number_input('enter value of Potassium:', key='k', min_value=round(data['K'].min()), max_value=round(data['K'].max())))
-ph = float(col4.number_input('enter value of soil ph:', key='ph', min_value=round(data['ph'].min()), max_value=round(data['ph'].max())))
-rainfall = float(col5.number_input('enter rainfall value:',key='rainfall', min_value=round(data['rainfall'].min()), max_value=round(data['rainfall'].max())))
-temperature = float(col6.number_input('enter temperature value:', key='temperature', min_value=round(data['temperature'].min()), max_value=round(data['temperature'].max())))
-humidity = float(col7.number_input('enter humidity value:', key='humidity', min_value=round(data['humidity'].min()), max_value=round(data['humidity'].max())))
+with st.sidebar: 
+    st.image("https://www.onepointltd.com/wp-content/uploads/2020/03/inno2.png")
+    st.title(" CROP RECOMMENDATION ")
+    choice = st.radio("Navigation", ["Predict","Upload"])
+    st.info("""We use state-of-the-art machine learning and deep learning technologies to help you
+					guide through
+					the entire farming process. Make informed decisions to understand the demographics of your area,
+					understand the
+					factors that affect your crop and keep them healthy for a super awesome successful yield.""")
 
 
-def process(n,p,k,rainfall,humidity,temperature,ph):
-    unknown_data = pd.DataFrame([{'N':round(n),'P':round(p),'K':round(k),'rainfall':round(rainfall),'humidity':round(humidity),'ph':round(ph),'temperature':round(temperature)}])
-    kmeans_result2 = pd.read_csv('../dataset/kmeans_result2.csv')
-    kmeans_result2['Cluster'] = kmeans_result2['Cluster'].str.replace("Cluster",'').apply(int)
-    saved_model = pc.load_model("../model/crop-model")
-    pred = pc.predict_model(saved_model,unknown_data)
-    pred = int(pred['Cluster'][0][-1])
-    kmeans_result=kmeans_result2[kmeans_result2['Cluster']==pred]
-    crops = set(kmeans_result['label'])
-    
-    return st.write('crops: ',crops)
-    
-if st.button('predict'):
-    process(n,p,k,humidity,temperature,ph,rainfall)
+if choice == "Predict":
+    st.title("Predict")
+    col1, col2, col3,col4 = st.columns(4)
+    col5, col6, col7 = st.columns(3)
+    #data = pd.read_csv('../dataset/kmeans_result2.csv')
+    n = (col1.text_input('enter value of Nitrogen:',key='n'))
+    p = (col2.text_input('enter value of Phorphorus:', key='p'))
+    k = (col3.text_input('enter value of Potassium:', key='k'))
+    ph = (col4.text_input('enter value of soil ph:', key='ph'))
+    rainfall = (col5.text_input('enter rainfall value:',key='rainfall'))
+    temperature = (col6.text_input('enter temperature value:', key='temperature'))
+    humidity = (col7.text_input('enter humidity value:', key='humidity'))
+
+    def process(n,p,k,rainfall,humidity,temperature,ph):
+        unknown_data = pd.DataFrame([{'N':float(n),'P':float(p),'K':float(k),'rainfall':float(rainfall),'humidity':float(humidity),'ph':float(ph),'temperature':float(temperature)}])
+        saved_model = pc.load_model("../model/crop-model-classification")
+        pred = pc.predict_model(saved_model,unknown_data)
+        pred = (pred['Label'][0])
+        
+        
+        return st.success(f"crop recommended for particular variables is :{pred}")       
+        
+    if st.button('predict'):
+        
+        if n.isalpha():
+            st.error("only number required in NItrogen field")
+        elif n.strip()=="":
+            st.error("NItrogen Field required")
+        elif p.isalpha():
+            st.error("only number required in Phorphorus Field")
+        elif p.strip()=="":
+            st.error("Phorphorus Field required")
+        elif k.isalpha():
+            st.error("only number required in Pottasium Field")
+        elif k.strip()=="":
+            st.error("Pottasium Field required")
+        else:
+            process(n,p,k,humidity,temperature,ph,rainfall)
+if choice == "Upload":
+    def process(file):
+        
+        # unknown_data = pd.DataFrame([{'N':float(n),'P':float(p),'K':float(k),'rainfall':float(rainfall),'humidity':float(humidity),'ph':float(ph),'temperature':float(temperature)}])
+        saved_model = pc.load_model("../model/crop-model-classification")
+        pred = pc.predict_model(saved_model,file)
+        pred = pd.DataFrame(pred,index=None)
+        return pred
+        
+        
+    st.title("Upload Your Dataset")
+    file = st.file_uploader("Upload Your Dataset", type=['csv'])
+    if file: 
+        df = pd.read_csv(file, index_col=None)
+        df.to_csv('dataset.csv', index=None)
+        if st.dataframe(df):
+            if st.button('predict'):
+                
+                st.write(process(df))
+                
+                # if st.download_button('Download',process(df),'text/CSV'):
+                #     st.success('date saved')
+                 
